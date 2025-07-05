@@ -1,0 +1,100 @@
+
+body{
+    background-image: url(../image/ai-generated-7926028_1280.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0);
+    width: 500px;
+    height: 600px;
+    align-self: center;
+    justify-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+.login{
+    margin-top: 50px;
+}
+.login-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+input{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(2, 2, 2, 0.8);
+    outline: none;
+    color: rgba(255, 255, 255, 0.714);
+}
+label{
+    font-size: 20px;
+        color: rgba(255, 255, 255, 0.714);
+
+}
+.smt{
+    margin-top: 10px;
+    width: 370px;
+    height:50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+.G{
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.744);
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.714);
+    border-radius: 10px;
+}
+.F{
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.744);
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.714);
+    border-radius: 10px;
+}
+.G:hover, .F:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+.error-msg {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+/* Show message when input is invalid */
+input:invalid + .error-msg {
+    display: block;
+}
